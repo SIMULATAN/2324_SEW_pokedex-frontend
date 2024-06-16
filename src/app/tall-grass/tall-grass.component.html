@@ -1,0 +1,5 @@
+<app-pokemon *ngIf="pokemon != null" [pokemon]="pokemon"></app-pokemon>
+
+<button *ngIf="caught < 6" (click)="throw()">Throw</button>
+
+<button (click)="refreshPokemon()">Run</button>

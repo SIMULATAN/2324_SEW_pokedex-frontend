@@ -1,0 +1,10 @@
+<div class="container">
+  <p *ngFor="let pokemon of pokemons">
+    @if (pokemon.catchCount > 0) {
+      {{ pokemon.name }}
+    }
+    @else {
+      ???
+    }
+  </p>
+</div>
